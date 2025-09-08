@@ -1,0 +1,103 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.detalle-page-wrapper {
+  background-color: #E6E7E8;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.detalle-seccion-titulo {
+  color: #000000;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+
+.detalle-titulo-producto {
+  color: #000000;
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+
+.detalle-descripcion {
+  color: #333333;
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.detalle-precio {
+  color: #000000;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.detalle-boton-comprar {
+  background-color: #434246;
+  color: #FFFFFF;
+  border-color: #434246;
+  padding: 10px 24px;
+  font-weight: bold;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.detalle-boton-comprar:hover {
+  background-color: #2a2a2d;
+  color: #FFFFFF;
+  border-color: #2a2a2d;
+}
+
+.detalle-boton-resena {
+  background-color: transparent;
+  color: #434246;
+  border: 2px solid #434246;
+  padding: 10px 24px;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.detalle-boton-resena:hover {
+  background-color: #434246;
+  color: #FFFFFF;
+  border-color: #434246;
+}
+
+.detalle-card-resena {
+  background-color: #434246;
+  color: #FFFFFF;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.detalle-card-resena:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.detalle-estrellas {
+  color: #FFD700;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.detalle-imagen-producto {
+  max-height: 400px;
+  width: 100%;
+  object-fit: contain;
+}
+
+.detalle-imagen-similar {
+  height: 200px;
+  width: 100%;
+  object-fit:contain;
+}
+
+.detalle-usuario {
+  color: #03E9FE;
+  font-weight: bold;
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+}
