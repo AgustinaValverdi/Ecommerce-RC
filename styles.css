@@ -100,5 +100,6 @@ footer .footer-container>div {
 .footer-title {
     border-left: #03E9FE solid 5px;
     border-right: #03E9FE solid 5px;
-
+}.Imagenes, img {
+    aspect-ratio: 1;
 }
