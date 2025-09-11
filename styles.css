@@ -1,15 +1,4 @@
 * {
-    padding: 0%;
-    margin: 0%;
-    box-sizing: border-box;
-}
-
-.Imagenes,
-img {
-    aspect-ratio: 1;
-}
-
-* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -36,12 +25,12 @@ footer h3 {
 }
 
 .footer-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 30px 20px;
-    background-color: #0b070e;
-    flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 20px;
+  background-color: #0b070e;
+  flex-wrap: wrap;
 }
 
 footer .footer-container {
