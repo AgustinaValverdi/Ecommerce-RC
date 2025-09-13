@@ -3,6 +3,7 @@
   margin: 0;
   padding: 0;
 }
+
 .detalle-page-wrapper {
   background-color: #E6E7E8;
   padding-top: 1rem;
@@ -92,7 +93,7 @@
 .detalle-imagen-similar {
   height: 200px;
   width: 100%;
-  object-fit:contain;
+  object-fit: contain;
 }
 
 .detalle-usuario {
@@ -100,4 +101,60 @@
   font-weight: bold;
   font-size: 1.1rem;
   margin-bottom: 10px;
+}
+
+
+.main-Registro {
+  min-height: calc(100vh - 60px);
+}
+
+.formContainer-Registro {
+  width: 60vw;
+  height: 70vw;
+}
+
+
+
+.fondo-Form {
+  background-color: rgba(255, 255, 255, 0.9);
+  background-image: url(./images/detalle/logo.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  position: relative;
+}
+
+.registro-Google {
+  height: 45px;
+}
+
+.registro-Google:hover {
+  background-color: #2a2a2d;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+
+@media (max-width: 576px) {
+  .main-Registro {
+    background-color: #FFFFFF !important;
+    height: 100%;
+    width: 100vh;
+  }
+
+  .formContainer-Registro {
+    background-color: #E6E7E8 !important;
+    max-width: 100%;
+    max-height: 100%;
+    padding: 20px;
+  }
+
+  .d-flex.gap-2 {
+    flex-direction: column;
+  }
+
+  .form-floating.w-50,
+  .form-floating.w-75,
+  .form-floating.w-10 {
+    width: 100% !important;
+  }
 }
