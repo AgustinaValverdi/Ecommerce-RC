@@ -103,7 +103,10 @@
   margin-bottom: 10px;
 }
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 07d0c0f (actualizacion style)
 .main-Registro {
   min-height: calc(100vh - 60px);
 }
@@ -113,6 +116,7 @@
   height: 70vw;
 }
 
+<<<<<<< HEAD
 
 
 .fondo-Form {
@@ -120,10 +124,25 @@
   background-image: url(./images/detalle/logo.png);
   background-repeat: no-repeat;
   background-position: center;
+=======
+@media (max-width: 575px) {
+  .shadow-lg {
+    border: none !important;
+    box-shadow: none !important;
+  }
+}
+
+.fondo-Form {
+  background-color: #FFFFFF !important;
+  background-image: url(./img/logo-Photoroom.png);
+  background-repeat: no-repeat;
+  background-position: start;
+>>>>>>> 07d0c0f (actualizacion style)
   background-size: contain;
   position: relative;
 }
 
+<<<<<<< HEAD
 .registro-Google {
   height: 45px;
 }
@@ -195,3 +214,12 @@
     .right-side img {
       max-width: 80%;
     }
+=======
+.registro-Google{
+  height: 45px;
+}
+.registro-Google:hover {
+  background-color: #2a2a2d;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+>>>>>>> 07d0c0f (actualizacion style)
