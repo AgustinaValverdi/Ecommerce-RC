@@ -103,10 +103,7 @@
   margin-bottom: 10px;
 }
 
-<<<<<<< HEAD
 
-=======
->>>>>>> 07d0c0f (actualizacion style)
 .main-Registro {
   min-height: calc(100vh - 60px);
 }
@@ -115,8 +112,39 @@
   width: 60vw;
   height: 70vw;
 }
+@media (max-width: 575px) {
+  .form-Registro {
+    padding: 2rem 1rem;
+    margin: 1rem;
+    background: #ffffff !important;  
+    background-image: none !important;
+    border: 1px solid #ddd;
+  }
 
-<<<<<<< HEAD
+  .h1-Registro {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  .input-Registro {
+    flex-direction: column;
+    gap: 0.5rem !important;
+  }
+
+  .form-floating {
+    width: 100% !important;
+  }
+
+  .registro-Google {
+    flex-direction: column;
+    text-align: center;
+    padding: 0.75rem;
+  }
+  .registro-Google img {
+    margin-bottom: 0.5rem;
+  }
+}
+
 
 
 .fondo-Form {
@@ -124,25 +152,10 @@
   background-image: url(./images/detalle/logo.png);
   background-repeat: no-repeat;
   background-position: center;
-=======
-@media (max-width: 575px) {
-  .shadow-lg {
-    border: none !important;
-    box-shadow: none !important;
-  }
-}
-
-.fondo-Form {
-  background-color: #FFFFFF !important;
-  background-image: url(./img/logo-Photoroom.png);
-  background-repeat: no-repeat;
-  background-position: start;
->>>>>>> 07d0c0f (actualizacion style)
   background-size: contain;
   position: relative;
 }
 
-<<<<<<< HEAD
 .registro-Google {
   height: 45px;
 }
@@ -187,39 +200,30 @@
       padding: 40px;
       height: 100vh;
     }
-    .divisor {
+     .divisor-inicio {
       display: flex;
       align-items: center;
       text-align: center;
       margin: 20px 0;
     }
-    .divisor::before, .divisor::after {
+     .divisor-inicio::before,  .divisor-inicio::after {
       content: "";
       flex: 1;
       border-bottom: 1px solid #000;
     }
-    .divisor:not(:empty)::before {
+    .divisor-inicio:not(:empty)::before {
       margin-right: .5em;
     }
-    .divsor:not(:empty)::after {
+    .divisor-inicio:not(:empty)::after {
       margin-left: .5em;
     }
-    .right-side {
+    .logo-inicio {
       background-color: #0d0d1a;
       display: flex;
       justify-content: center;
       align-items: center;
       height: 100vh;
     }
-    .right-side img {
+    .logo-inicio img {
       max-width: 80%;
     }
-=======
-.registro-Google{
-  height: 45px;
-}
-.registro-Google:hover {
-  background-color: #2a2a2d;
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-}
->>>>>>> 07d0c0f (actualizacion style)
