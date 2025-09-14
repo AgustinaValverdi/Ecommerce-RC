@@ -112,11 +112,12 @@
   width: 60vw;
   height: 70vw;
 }
+
 @media (max-width: 575px) {
   .form-Registro {
     padding: 2rem 1rem;
     margin: 1rem;
-    background: #ffffff !important;  
+    background: #ffffff !important;
     background-image: none !important;
     border: 1px solid #ddd;
   }
@@ -140,6 +141,7 @@
     text-align: center;
     padding: 0.75rem;
   }
+
   .registro-Google img {
     margin-bottom: 0.5rem;
   }
@@ -191,39 +193,65 @@
   }
 }
 
- body {
-      min-height: 100vh;
-      margin: 0;
-    }
-    .form-container {
-      background-color: #f2f2f2;
-      padding: 40px;
-      height: 100vh;
-    }
-     .divisor-inicio {
-      display: flex;
-      align-items: center;
-      text-align: center;
-      margin: 20px 0;
-    }
-     .divisor-inicio::before,  .divisor-inicio::after {
-      content: "";
-      flex: 1;
-      border-bottom: 1px solid #000;
-    }
-    .divisor-inicio:not(:empty)::before {
-      margin-right: .5em;
-    }
-    .divisor-inicio:not(:empty)::after {
-      margin-left: .5em;
-    }
-    .logo-inicio {
-      background-color: #0d0d1a;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
-    }
-    .logo-inicio img {
-      max-width: 80%;
-    }
+body {
+  min-height: 100vh;
+  margin: 0;
+}
+
+.form-container {
+  background-color: #f2f2f2;
+  padding: 40px;
+  height: 100vh;
+}
+
+.divisor-inicio {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.divisor-inicio::before,
+.divisor-inicio::after {
+  content: "";
+  flex: 1;
+  border-bottom: 1px solid #000;
+}
+
+.divisor-inicio:not(:empty)::before {
+  margin-right: .5em;
+}
+
+.divisor-inicio:not(:empty)::after {
+  margin-left: .5em;
+}
+
+.logo-inicio {
+  background-color: #0d0d1a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.logo-inicio img {
+  max-width: 80%;
+}
+
+body {
+  background-color: #e6e7e8;
+  /* gris claro */
+}
+
+.contenedor-Contacto {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form-control {
+  border: 1px solid #000;
+}
+
+
