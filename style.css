@@ -108,9 +108,8 @@
   min-height: calc(100vh - 60px);
 }
 
-.formContainer-Registro {
-  width: 60vw;
-  height: 70vw;
+.body-Registro {
+  background-color: #000000;
 }
 
 @media (max-width: 575px) {
@@ -167,33 +166,33 @@
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
-
-@media (max-width: 576px) {
-  .main-Registro {
-    background-color: #FFFFFF !important;
-    height: 100%;
-    width: 100vh;
+@media (max-width: 768px) {
+  .body-Registro {
+    background-color: white !important; /* fondo blanco */
   }
 
   .formContainer-Registro {
-    background-color: #E6E7E8 !important;
-    max-width: 100%;
-    max-height: 100%;
-    padding: 20px;
+    background-color: white !important; /* fondo del form blanco */
+    border: none !important; /* opcional: quitar borde */
+    box-shadow: none !important; /* opcional: sin sombra */
   }
 
-  .d-flex.gap-2 {
-    flex-direction: column;
+  .fondo-Form {
+    background: none !important; /* elimina imagen/fondo */
   }
 
-  .form-floating.w-50,
-  .form-floating.w-75,
-  .form-floating.w-10 {
-    width: 100% !important;
+  .input-Registro {
+    flex-direction: column !important; /* inputs en columna */
+  }
+
+  .input-Registro .w-50,
+  .input-Registro .w-75,
+  .input-Registro .w-10 {
+    width: 100% !important; /* inputs ancho completo */
   }
 }
 
-body {
+.body-inicio {
   min-height: 100vh;
   margin: 0;
 }
@@ -238,7 +237,7 @@ body {
   max-width: 80%;
 }
 
-body {
+.body-contacto {
   background-color: #e6e7e8;
   /* gris claro */
 }
