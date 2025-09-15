@@ -1,136 +1,140 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Detalle del Producto</title>
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
-    />
-    <link rel="stylesheet" href="../styles/style.css" />
-  </head>
-  <body>
-    <header></header>
-    <main>
-      <div class="detalle-page-wrapper">
-        <div class="container my-5">
-          <div class="row align-items-center">
-            <div class="col-md-6">
-              <h1 class="detalle-titulo-producto">
-                Mouse Gamer Logitech G502
-              </h1>
-              <p class="detalle-descripcion mb-4">
-                Experimenta un rendimiento legendario con el mouse G502 HERO.
-                Equipado con el avanzado sensor HERO 25K para una precisión
-                inigualable, 11 botones programables y un sistema de pesas
-                ajustables, este mouse te da el control total para dominar cada
-                partida.
-              </p>
-              <h3 class="detalle-precio mb-4">$82.147</h3>
-              <div class="d-grid gap-2 d-md-flex">
-                <button type="button" class="btn detalle-boton-comprar">
-                  Agregar al carrito
-                </button>
-                <button type="button" class="btn detalle-boton-resena">
-                  Reseña
-                </button>
-              </div>
-            </div>
-            <div class="col-md-6 mt-4 mt-md-0">
-              <img
-                src="../images/detalle/imagen-mouse-principal-Photoroom.png"
-                alt="Imagen del producto"
-                class="img-fluid rounded detalle-imagen-producto"
-              />
-            </div> 
-          </div>
 
-          <div class="mt-5">
-            <h2 class="text-center detalle-seccion-titulo">
-              Productos similares
-            </h2>
-            <div class="row">
-              <div class="col-12 col-md-12 mb-3">
-                <img
-                  src="../images/detalle/imagen-mouse-1-Photoroom.png"
-                  alt="Producto similar 1"
-                  class="img-fluid rounded detalle-imagen-similar"
-                />
-              </div>
-              <div class="col-12 col-md-6 mb-3">
-                <img
-                  src="../images/detalle/imagen-mouse-2-Photoroom.png"
-                  alt="Producto similar 2"
-                  class="img-fluid rounded detalle-imagen-similar"
-                />
-              </div>
-              <div class="col-12 col-md-6 mb-3">
-                <img
-                  src="../images/detalle/imagen-mouse-3-Photoroom.png"
-                  alt="Producto similar 3"
-                  class="img-fluid rounded detalle-imagen-similar"
-                />
-              </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Detalle del Producto</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="../styles/style.css" />
+</head>
+
+<body>
+  <nav class="navbar bg-black px-3">
+    <div class="container-fluid">
+      <a class="" href="../index.html">
+        <img src="../images/logo/logo-Photoroom (1).png" alt="Logo" height="50" class="me-3" />
+      </a>
+      <form class="d-flex mx-auto w-50" role="search">
+        <input class="form-control me-1" type="search" placeholder="Buscar productos..." />
+        <button class="btn btn-info" type="submit">
+          <i class="bi bi-search"></i>
+        </button>
+      </form>
+      <div class="d-flex gap-3 ms-3">
+        <a href="../pages/iniciar-sesion.html" class="text-light fs-3"><i class="bi bi-person"></i></a>
+        <a href="../pages/carrito.html" class="text-light fs-3"><i class="bi bi-cart2"></i></a>
+      </div>
+    </div>
+  </nav>
+  <header></header>
+  <main>
+    <div class="detalle-page-wrapper">
+      <div class="container my-5">
+        <div class="row align-items-center">
+          <div class="col-md-6">
+            <h1 class="detalle-titulo-producto">
+              Mouse Gamer Logitech G502
+            </h1>
+            <p class="detalle-descripcion mb-4">
+              Experimenta un rendimiento legendario con el mouse G502 HERO.
+              Equipado con el avanzado sensor HERO 25K para una precisión
+              inigualable, 11 botones programables y un sistema de pesas
+              ajustables, este mouse te da el control total para dominar cada
+              partida.
+            </p>
+            <h3 class="detalle-precio mb-4">$82.147</h3>
+            <div class="d-grid gap-2 d-md-flex">
+              <button type="button" class="btn detalle-boton-comprar">
+                Agregar al carrito
+              </button>
+              <button type="button" class="btn detalle-boton-resena">
+                Reseña
+              </button>
             </div>
           </div>
+          <div class="col-md-6 mt-4 mt-md-0">
+            <img src="../images/detalle/imagen-mouse-principal-Photoroom.png" alt="Imagen del producto"
+              class="img-fluid rounded detalle-imagen-producto" />
+          </div>
+        </div>
 
-          <div class="mt-5">
-            <h2 class="text-center detalle-seccion-titulo">Reseñas</h2>
-            <div class="row">
-              <div class="col-md-6 mb-4">
-                <div class="card detalle-card-resena h-100">
-                  <div class="card-body d-flex flex-column text-center">
-                    <div class="detalle-usuario">@CarlosM_2024</div>
-                    <p class="card-text my-3 text-light">
-                      Esta es una reseña de ejemplo del producto. El cliente
-                      quedó muy satisfecho con la compra.
-                    </p>
-                    <div class="mt-auto">
-                      <span class="detalle-estrellas">★★★★★</span>
-                    </div>
+        <div class="mt-5">
+          <h2 class="text-center detalle-seccion-titulo">
+            Productos similares
+          </h2>
+          <div class="row">
+            <div class="col-12 col-md-12 mb-3">
+              <img src="../images/detalle/imagen-mouse-1-Photoroom.png" alt="Producto similar 1"
+                class="img-fluid rounded detalle-imagen-similar" />
+            </div>
+            <div class="col-12 col-md-6 mb-3">
+              <img src="../images/detalle/imagen-mouse-2-Photoroom.png" alt="Producto similar 2"
+                class="img-fluid rounded detalle-imagen-similar" />
+            </div>
+            <div class="col-12 col-md-6 mb-3">
+              <img src="../images/detalle/imagen-mouse-3-Photoroom.png" alt="Producto similar 3"
+                class="img-fluid rounded detalle-imagen-similar" />
+            </div>
+          </div>
+        </div>
+
+        <div class="mt-5">
+          <h2 class="text-center detalle-seccion-titulo">Reseñas</h2>
+          <div class="row">
+            <div class="col-md-6 mb-4">
+              <div class="card detalle-card-resena h-100">
+                <div class="card-body d-flex flex-column text-center">
+                  <div class="detalle-usuario">@CarlosM_2024</div>
+                  <p class="card-text my-3 text-light">
+                    Esta es una reseña de ejemplo del producto. El cliente
+                    quedó muy satisfecho con la compra.
+                  </p>
+                  <div class="mt-auto">
+                    <span class="detalle-estrellas">★★★★★</span>
                   </div>
                 </div>
               </div>
-              <div class="col-md-6 mb-4">
-                <div class="card detalle-card-resena h-100">
-                  <div class="card-body d-flex flex-column text-center">
-                    <div class="detalle-usuario">@AnaGomez95</div>
-                    <p class="card-text my-3 text-light">
-                      Excelente calidad y muy buen precio. Lo recomiendo
-                      totalmente a otros usuarios.
-                    </p>
-                    <div class="mt-auto">
-                      <span class="detalle-estrellas">★★★★☆</span>
-                    </div>
+            </div>
+            <div class="col-md-6 mb-4">
+              <div class="card detalle-card-resena h-100">
+                <div class="card-body d-flex flex-column text-center">
+                  <div class="detalle-usuario">@AnaGomez95</div>
+                  <p class="card-text my-3 text-light">
+                    Excelente calidad y muy buen precio. Lo recomiendo
+                    totalmente a otros usuarios.
+                  </p>
+                  <div class="mt-auto">
+                    <span class="detalle-estrellas">★★★★☆</span>
                   </div>
                 </div>
               </div>
-              <div class="col-md-6 mb-4">
-                <div class="card detalle-card-resena h-100">
-                  <div class="card-body d-flex flex-column text-center">
-                    <div class="detalle-usuario">@JuanPerez88</div>
-                    <p class="card-text my-3 text-light">
-                      Producto de muy buena calidad. La entrega fue rápida y el
-                      empaque excelente.
-                    </p>
-                    <div class="mt-auto">
-                      <span class="detalle-estrellas">★★★★★</span>
-                    </div>
+            </div>
+            <div class="col-md-6 mb-4">
+              <div class="card detalle-card-resena h-100">
+                <div class="card-body d-flex flex-column text-center">
+                  <div class="detalle-usuario">@JuanPerez88</div>
+                  <p class="card-text my-3 text-light">
+                    Producto de muy buena calidad. La entrega fue rápida y el
+                    empaque excelente.
+                  </p>
+                  <div class="mt-auto">
+                    <span class="detalle-estrellas">★★★★★</span>
                   </div>
                 </div>
               </div>
-              <div class="col-md-6 mb-4">
-                <div class="card detalle-card-resena h-100">
-                  <div class="card-body d-flex flex-column text-center">
-                    <div class="detalle-usuario">@Maria_Lopez</div>
-                    <p class="card-text my-3 text-light">
-                      Cumplió con todas mis expectativas. El producto es tal
-                      como se describe en el sitio.
-                    </p>
-                    <div class="mt-auto">
-                      <span class="detalle-estrellas">★★★★★</span>
-                    </div>
+            </div>
+            <div class="col-md-6 mb-4">
+              <div class="card detalle-card-resena h-100">
+                <div class="card-body d-flex flex-column text-center">
+                  <div class="detalle-usuario">@Maria_Lopez</div>
+                  <p class="card-text my-3 text-light">
+                    Cumplió con todas mis expectativas. El producto es tal
+                    como se describe en el sitio.
+                  </p>
+                  <div class="mt-auto">
+                    <span class="detalle-estrellas">★★★★★</span>
                   </div>
                 </div>
               </div>
@@ -138,32 +142,34 @@
           </div>
         </div>
       </div>
-    </main>
-    <footer>
-        <div class="footer-container">
-            <div class="logo">
-                <img class="footer-img" src="../images/logo/logo-Photoroom (1).png" alt="logo" />
-            </div>
-            <div class="footer-title">
-                <h3>SEGUINOS EN</h3>
-                <div class="footer-icons">
-                    <a href="" class=""><i class="bi bi-twitter-x"></i></a>
-                    <a href="" class=""><i class="bi bi-youtube"></i></a>
-                    <a href="" class=""><i class="bi bi-instagram"></i></a>
-                    <a href="" class=""><i class="bi bi-whatsapp"></i></a>
-                    <a href="" class=""><i class="bi bi-facebook"></i></a>
-                    <a href="" class=""><i class="bi bi-twitch"></i></a>
-                    <a href="" class=""><i class="bi bi-linkedin"></i></a>
-                    <a href="" class=""><i class="bi bi-tiktok"></i></a>
-                </div>
-            </div>
-            <div class="footer-infoWeb">
-                <a class="information1" href="./contactanos.html">CONTACTO</a>
-                <a class="information2" href="./nosotros.html">SOBRE NOSOTROS</a>
-            </div>
+    </div>
+  </main>
+  <footer>
+    <div class="footer-container">
+      <div class="logo">
+        <img class="footer-img" src="../images/logo/logo-Photoroom (1).png" alt="logo" />
+      </div>
+      <div class="footer-title">
+        <h3>SEGUINOS EN</h3>
+        <div class="footer-icons">
+          <a href="" class=""><i class="bi bi-twitter-x"></i></a>
+          <a href="" class=""><i class="bi bi-youtube"></i></a>
+          <a href="" class=""><i class="bi bi-instagram"></i></a>
+          <a href="" class=""><i class="bi bi-whatsapp"></i></a>
+          <a href="" class=""><i class="bi bi-facebook"></i></a>
+          <a href="" class=""><i class="bi bi-twitch"></i></a>
+          <a href="" class=""><i class="bi bi-linkedin"></i></a>
+          <a href="" class=""><i class="bi bi-tiktok"></i></a>
         </div>
-    </footer>
+      </div>
+      <div class="footer-infoWeb">
+        <a class="information1" href="./contactanos.html">CONTACTO</a>
+        <a class="information2" href="./nosotros.html">SOBRE NOSOTROS</a>
+      </div>
+    </div>
+  </footer>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
-  </body>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
 </html>
