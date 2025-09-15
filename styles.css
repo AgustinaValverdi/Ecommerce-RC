@@ -5,6 +5,10 @@
     font-family: sans-serif;
 }
 
+.image, img {
+    aspect-ratio: 1;
+}
+
 .footer-img {
     width: 100px;
     height: 100px;
