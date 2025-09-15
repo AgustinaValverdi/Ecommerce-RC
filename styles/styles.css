@@ -108,7 +108,7 @@ footer .footer-container>div {
 
 .landing-banner-principal {
     background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-                url('./img/image.png');
+                url('../images/sobre-nosotros/image.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
