@@ -5,6 +5,10 @@
     font-family: sans-serif;
 }
 
+.image, img {
+    aspect-ratio: 1;
+}
+
 .footer-img {
     width: 100px;
     height: 100px;
@@ -14,7 +18,7 @@
 footer {
     text-align: center;
     width: 100%;
-    bottom: 0;
+    margin-top: auto;
 }
 
 footer h3 {
@@ -22,6 +26,7 @@ footer h3 {
     font-size: 20px;
     padding: 10px 0;
 }
+
 
 .footer-container {
   display: flex;
