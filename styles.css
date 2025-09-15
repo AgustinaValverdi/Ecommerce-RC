@@ -1,5 +1,103 @@
 * {
-    padding: 0%;
-    margin: 0%;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.footer-img {
+    width: 100px;
+    height: 100px;
+}
+
+
+footer {
+    text-align: center;
+    width: 100%;
+    bottom: 0;
+}
+
+footer h3 {
+    color: white;
+    font-size: 20px;
+    padding: 10px 0;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 20px;
+  background-color: #0b070e;
+  flex-wrap: wrap;
+}
+
+footer .footer-container {
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    gap: 30px;
+}
+
+footer .footer-container>div {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.footer-icons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.footer-icons a {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border: 2px solid white;
+    border-radius: 50%;
+    color: white;
+    font-size: 24px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.footer-icons a:hover {
+    background-color: white;
+    color: #03E9FE;
+}
+
+.footer-infoWeb {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.information1,
+.information2 {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.information1:hover,
+.information2:hover {
+    color: #03E9FE;
+}
+
+.footer-title {
+    border-left: #03E9FE solid 5px;
+    border-right: #03E9FE solid 5px;
+
 }
